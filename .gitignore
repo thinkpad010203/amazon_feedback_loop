@@ -8,6 +8,8 @@
 *.tar
 *.zip
 
+.gitignore
+
 # OS generated files #
 .DS_Store
 .DS_Store?
@@ -20,18 +22,8 @@ data/
 log/
 log_*/
 
-# Recbole folder
-models_tmp/
-
-# POst process folder
-outcomes_analysis/
 
 __pycache__/
-
-# All the results
-results_*/
-
-*.json
 
 
 
