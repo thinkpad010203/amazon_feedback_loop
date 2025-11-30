@@ -1,0 +1,30 @@
+{
+  "Precision": {
+    "precision@10": 0.3524
+  },
+  "Recall": {
+    "recall@10": 0.5832
+  },
+  "Hit": {
+    "hit@10": 0.9107
+  },
+  "NDCG": {
+    "ndcg@10": 0.5568
+  },
+  "ItemCoverage": {
+    "itemcoverage@10": 0.3954
+  },
+  "MRR": {
+    "mrr@10": 0.671
+  },
+  "MAP": {
+    "map@10": 0.4304
+  },
+  "AveragePopularity": {
+    "averagepopularity@10": 1353.1318
+  },
+  "model_name": "BPR",
+  "dataset": "amazon",
+  "total_epochs": 25,
+  "final_epoch": 24
+}
