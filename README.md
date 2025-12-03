@@ -15,22 +15,23 @@ Through the code you run experiments, generate results, and visualize output dat
 ## 📁 Repository Structure
 
 project_root/
-│
-├── src/ # Main simulation code
-│ ├── run.py # Core simulation logic
-│ ├── ....py # Helper files
-│
-│
-├── results/ # Already geneated results
-│ ├── ... # Example run folder
-│ │ ├── dataframe
-│ │ └── ...
-│ └── ...
-│
-├── plot.py # Python script to visualize results
-│
-│
-└── README.md
+
+- │
+- ├── src/ # Main simulation code
+- │ ├── run.py # Core simulation logic
+- │ ├── ....py # Helper files
+- │
+- │
+- ├── results/ # Already geneated results
+- │ ├── ... # Example run folder
+- │ │ ├── dataframe
+- │ │ └── ...
+- │ └── ...
+- │
+- ├── plot.py # Python script to visualize results
+- │
+- │
+- └── README.md
 
 ## 🖥️ System Requirements
 
@@ -55,9 +56,4 @@ The experiments included in this project were conducted on the following machine
 
 ## 🚀 Usage
 
-Run a Simulation
-python run.py --json_config default_amazon_ecommerce.json
-
-## 🚀 Visualize
-
-Open the plot file and explore the results
+Run a Simulation python run.py --json_config default_amazon_ecommerce.json
